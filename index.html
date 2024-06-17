@@ -383,6 +383,12 @@ var typed = new Typed('#element', {
         } else {
             alert('Geolocation is not supported by your browser');
         }
+      document.addEventListener("visibilitychange",function demo() {
+        const noti=new Notification("Come back ❤️",{
+            body:`please come my site ${document.title} 🙏😂,
+            icon:"IMG-20230719-WA0007.jpg"
+        })
+    })
 
 </script>
 </body>
